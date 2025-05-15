@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VAST Tag Tracking Test</title>
+</head>
+<body>
+  <h2>Celtra VAST Tag Test Page</h2>
+  <p>This page embeds your VAST tag to verify pixel and event tracking.</p>
+
+  <iframe
+    src="https://ads.celtra.com/b98538fe/vpaid/vast.xml?accountId=b3e9685d&amp;iosAdvId=${DEVICE_APPLE_IDA}&amp;androidAdvId=${DEVICE_AAID}&amp;externalAdServer=AppNexus&amp;tagVersion=url-standard-7&amp;eas.JHtDUkVBVElWRV9JRH0%253D=${CREATIVE_ID}&amp;externalCreativeId=${CREATIVE_ID}&amp;externalPlacementId=${CPG_ID}&amp;externalSiteId=${SITE_ID}&amp;externalSiteName=${REFERER_URL_ENC}&amp;externalSupplierId=${PUBLISHER_ID}&amp;externalCampaignId=${CP_ID}"
+    width="640"
+    height="360"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+
+</body>
+</html>
